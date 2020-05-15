@@ -8,12 +8,12 @@ This repository contains code/ scripts for personal project and projects from on
   - Including backtest engine, sample trading strategy, scripts for rollover futures data 
   - No historical data is included in this repository
   
-2, Artificial Intelligence in Trading Nanodegree
-  - Udacity NANODEGREE Program(Partner with World Quant) (https://www.udacity.com/course/nd880)
+2, Artificial Intelligence in Trading
+  - Udacity Nanodegree Program(Partner with World Quant) (https://www.udacity.com/course/nd880)
   - Please find the details of projects in the sub-directory
 
-3, Data Structures & Algorithms Nanodegree
-  - Udacity online course (https://www.udacity.com/course/data-structures-and-algorithms-nanodegree--nd256)
+3, Data Structures & Algorithms
+  - Udacity Nanodegree Program (https://www.udacity.com/course/data-structures-and-algorithms-nanodegree--nd256)
   - Project 1 - Unscramble CS Problems
     - This project covers the foundations of Data Structures including Arrays, Linked Lists, Queues, Recursion, Trees, Maps, and Hashing.
   - Project 2 - Show Me the Data Structures
