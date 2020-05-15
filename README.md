@@ -10,3 +10,5 @@ This repository contains code for personal project and projects from online lear
 2, Udacity AI in Trading Nanodegree
 
 3, Udacity Data Structures & Algorithms Nanodegree
+
+# No Data is included due to the license
