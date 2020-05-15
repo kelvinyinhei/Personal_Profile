@@ -1,0 +1,108 @@
+
+
+
+
+
+Problem 1: Finding Square Root of an Integer 
+
+To find the square root, I use binary search here. As the square root of an integer must be smaller than the integer, I first search on the square of mid of the integer. For example, if the integer is 9, I first search on 4.5 * 4.5. If the square is higher than the integer, then search again on the upper part (4.5 - 9). If not, search on the lower part (0 - 4.5). 
+
+	- Time complexity: O(log(n)) as it is binary search
+	- Space complexity: O(1) to store the number 
+
+
+
+
+
+Problem 2: Search in a Rotated Sorted Array
+
+Binary search is used here. First, we find the pivot point where the list is rotated and split the list into two halves. Then, do binary search on the half where the target number falls in that range. 
+
+	- Time complexity: O(log(n)) as it is binary search
+	- Space complexity: O(1) as the function outputs an index 
+
+
+
+
+
+Problem_3: Rearrange Array Elements
+
+The algorithm first sorts the input digits using quick sort. Then, put the largest number into one and the second largest number into another one. Using this sequence, we can get the two pair of digits which sum up to be max number. 
+
+	- Time complexity: O(n * log(n)) because of the quick sort
+	- Space complexity: O(n) where n is the size of input list
+
+
+
+
+
+
+Problem_4: Dutch National Flag Problem 
+
+In this problem, we will sort the list to 0, 1, 2 as we traverse the list. We have three pointers - low, mid and high. Everything to the left of low is 0 while everything to the right of high is 2. Everything to the left of mid can be 0 or 1. 
+
+We iterate the list until mid passes high. At each iteration, we consider the current element in three cases. If it is 0, it belongs to the left side so we swap the value of low and mid pointers. If it is 1, we increment mid to mid + 1. If it is 2, we swap the value of mid and high pointers. 
+
+
+	- Time Complexity: O(n) as we traverse the list 
+	- Space Complexity: O(n) where n is size of output array which is same as input 				  array
+
+
+
+
+
+Problem_5: Autocomplete with Trees
+
+For inserting a word in the trie, 
+
+	- Time Complexity: O(n)	where n is the number of characters in the word 
+
+For lookup of a prefix node,
+
+	- Time Complexity: O(n)	where n is the number of characters in the prefix
+
+For the gathering of suffixes, 
+ 
+	- Time Complexity: O(n * m) where n is number of suffixes and m is the average 						length of each suffixes
+
+For the size of trie,
+
+	- Space Complexity: O(n * m) where n is the size of alphabet and m is the average 				     branching factor which means the average number of 			    	     unique characters following a given character  
+
+
+
+
+
+Problem_6: Max and Min in a Unsorted Array
+
+Initialise the max and min to None value. Then we iterate over the input array and compare the current element with the saved max and min. If the current element is larger than the max, we will update the max to be the value of current element. After iterating the whole array, we will have the min and max value. 
+
+	- Time complexity: O(n) as n is the size of the input array 
+	- Space Complexity: O(n) where n is the max and min value because it include the Auxiliary Space used which means the temporary space 
+
+
+
+
+
+Problem_7: Request Routing in a Web Server with a Trie
+
+In this problem, Instead of using characters as keys in trie, we use the components of path to be keys. 
+
+For lookup in the route, 
+
+	- Time complexity: O(n) as n is the number of path components
+
+For insertion, 
+
+	- Time complexity: O(n) as n is the number of path components
+
+For size of trie,
+
+	- Space Complexity: O(n * m) where n is the average number of path components and 				     m is the average branching factor which means the 					     average number of unique path components following a 				     given path components
+
+
+
+
+
+
+

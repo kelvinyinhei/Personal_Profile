@@ -1,0 +1,92 @@
+
+
+
+Problem_1: 
+
+Two data structures are used to build the LRU (- Doubly-linked list & dictionary)
+
+These two data structures work together to store the same data but linked list is used to control the access history while dictionary is used to have O(1) for both get() and set() operations. 
+
+Each node in linked list contains both key and value of a cache item. When the list is overflow, it will pop out the last item from the list. 
+
+For the set(), the new(key, value) node is added to the head of linked list. If it is over capacity, it will remove the node at the tail of linked list and remove in the dict as well. 
+
+For the get(), the (key, value) node will move to the front of the linked list for the access memory. 
+
+	- Time complexity: O(1) for all operations 
+	- Size complexity: O(n) where n is the size of cache history 
+
+
+
+Problem_2: 
+
+It's a recursive function to walk through all files or sub-folder in the directory.
+
+	- Time complexity: O(n) - linear to the numbers of files and directories
+	- Size complexity: O(m) where m is the number of files that matches the suffix
+
+
+
+Problem_3:
+
+The Huffman tree is built by frequency calculation and tree-building. 
+
+For the frequency, it builds a map of counting the frequency on each unique characters.
+
+	- Time complexity: O(n) where n is the number of characters in the input
+	- Size complexity: O(m) where m is the number of unique characters
+
+For tree-building, it builds a tree with leaf which is a unique character.
+
+	- Time complexity: O(n * log(n)) where its the time of heap to take
+	- Size complexity: O(m) where m is the number of unique characters
+
+For encoding operation,
+
+	- Time complexity: O(n * log(m)) where n is the number of unique characters and m 						is the size of character
+	- Size complexity: O(m) where m is the number of unique characters
+
+For decoding operation, 
+
+	- Time complexity: O(n) 
+	- Size complexity: O(n) where n is the number of bits to be decoded
+
+
+
+Problem_4:
+
+It is a recursive function to test if user is found in the current group and then going to the descendants of sub-groups.
+
+	- TIme Complexity: O(n * m)	
+	- Space Complexity: O(n * m) where n is the total number of groups and m is the 					average number of users per group
+
+
+
+Problem_5:
+
+Blockchains is similar to a linked list with same time and size complexity. 
+
+	- Time Complexity: O(n)	where n is the number of blocks
+	- Space Complexity: O(n) 
+
+
+
+Problem_6:
+
+For intersection:
+
+Iterate over tow list and add the node to a pre-list. 
+
+		- Time complexity: O(n * m) 
+		- Space Complexity: O(n * m) where n is size of first list and m is the 						size of second list
+
+For Union:
+
+Add all nodes from two list into a new list. Then iterate over to remove duplicates.
+
+		- Time complexity: O(n * m) 
+		- Space Complexity: O(n * m) where n is size of first list and m is the 						size of second list
+
+
+
+

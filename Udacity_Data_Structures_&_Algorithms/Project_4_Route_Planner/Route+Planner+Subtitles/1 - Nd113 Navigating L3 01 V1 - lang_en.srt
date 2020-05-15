@@ -1,0 +1,40 @@
+1
+00:00:00,000 --> 00:00:03,345
+So, I hope you had fun listening to my good friend,
+
+2
+00:00:03,345 --> 00:00:06,849
+and colleague Peter Norvig, explaining A-star,
+
+3
+00:00:06,849 --> 00:00:11,960
+and I with him developed at Stanford many decades ago by Peter Hart business,
+
+4
+00:00:11,960 --> 00:00:15,305
+and others good friends of mine and colleagues of mine.
+
+5
+00:00:15,304 --> 00:00:19,664
+Now, the challenge, should you choose to accept it,
+
+6
+00:00:19,664 --> 00:00:22,329
+is to turn this into a computer code.
+
+7
+00:00:22,329 --> 00:00:24,719
+So, you hopefully understood the algorithm,
+
+8
+00:00:24,719 --> 00:00:28,054
+but you haven't given your word about how to code it.
+
+9
+00:00:28,054 --> 00:00:29,940
+If you manage to code it,
+
+10
+00:00:29,940 --> 00:00:33,100
+I will be officially proud of you.
+

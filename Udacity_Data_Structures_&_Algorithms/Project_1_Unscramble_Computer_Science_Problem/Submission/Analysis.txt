@@ -1,0 +1,67 @@
+Run-time Analysis:
+
+
+Task0: 
+- It runs two times on reading two csv files in linear time
+	- O(2n + 2) 
+	~ Approx. O(n) 
+
+
+
+Task1:
+- Two for-loops on reading two csv files in linear time 
+- And two for-loops to store phone numbers into one list
+	- O(4n) 
+	~ Approx. O(n)
+
+
+
+Task2:
+- From line 24 to 36, there are one for-loop with two if-case of searching in dict 	
+	- O(n + 2) As its O(1) in dict searching
+
+- From line 40 to 42, there is another for-loop to convert dictionary into list with tuples
+	- O(n + 2)
+
+- From line 45, its default sorting which is O(nlogn)
+	Reference: https://www.quora.com/What-is-the-time-complexity-of-the-Python-built-in-sorted-function
+
+- Overall, Approx. O(nlogn)
+
+
+
+Task3:
+- Two loops for reading two csv files 
+	- which is O(2n)
+
+- For Part A
+	- There is one for-loop with two if-case + one sorting 
+	- O(n + 2) + O(nlogn)
+	- Approx. O(nlogn)
+
+- For Part B
+	- there are two for-loops with if-case
+	- O(2n + 2) 
+	- Approx. O(n)
+- Overall, 
+	~ Approx. O(nlogn)
+
+
+Task4:
+- For line 22 to 26, its a for-loop and "set" the list
+	- O(n + 1)
+
+- For line 29 to 31, its for-loop and a searching in if-case
+	- O(n + 1) As searching in Set() is O(1)
+
+- For line 34, its a sorting 
+	- Reference: https://www.quora.com/What-is-the-time-complexity-of-the-Python-built-in-sorted-function
+	- O(nlogn)
+
+- Total: O(4n + 4) + O(3*n^2) + O(nlogn)
+	~ Approx. O(n^2)
+
+
+
+
+

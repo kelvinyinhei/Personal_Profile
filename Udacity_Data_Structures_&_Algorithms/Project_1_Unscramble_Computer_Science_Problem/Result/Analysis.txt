@@ -1,0 +1,56 @@
+Run-time Analysis:
+
+
+Task0: 
+- It runs two times on reading two csv files in linear time
+	- O(2n + 2) 
+	~ Approx. O(n) 
+
+
+
+Task1:
+- Two loops for reading two csv files in linear time and two for loops to store phone numbers into one list
+	- O(4n) 
+	~ Approx. O(n)
+
+
+
+Task2:
+- There are no loops in the function 	
+	- Approx. O(1)
+
+
+
+Task3:
+- Two loops for reading two csv files 
+	- which is O(2n)
+
+- For Part A
+	- There is mainly one for-loop
+	- Approx. O(n)
+
+- For Part B
+	- there are two for-loops and searching in if-case
+	- O(n^2) in worst case
+	- Approx. O(n^2)
+
+
+
+Task4:
+- For line 22 to 26, its a for-loop and "set" the list
+	- O(n + 1)
+
+- For line 29 to 31, its for-loop and a searching in if-case
+	- O(n^2) in worst case
+
+- For line 34, its a sorting 
+	- Reference: https://www.quora.com/What-is-the-time-complexity-of-the-Python-built-in-sorted-function
+	- O(nlogn)
+
+- Total: O(4n + 4) + O(3*n^2) + O(nlogn)
+	~ Approx. O(n^2)
+
+
+
+
+
