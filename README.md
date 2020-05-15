@@ -8,9 +8,12 @@ This repository contains code/ scripts for personal project and projects from on
   - Including backtest engine, sample trading strategy, scripts for rollover futures data 
   - No historical data is included in this repository
   
-2, Udacity AI in Trading Nanodegree
-  - 
+2, Artificial Intelligence in Trading Nanodegree
+  - Course from Udacity ()
+  - Please find the details of projects in the sub-directory
 
-3, Udacity Data Structures & Algorithms Nanodegree
+3, Data Structures & Algorithms Nanodegree
+  - Course from Udacity ()
+  - Please find the details of projects in the sub-directory
 
 # No Data is included due to the license
