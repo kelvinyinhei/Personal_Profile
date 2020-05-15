@@ -14,6 +14,11 @@ This repository contains code/ scripts for personal project and projects from on
 
 3, Data Structures & Algorithms Nanodegree
   - Udacity online course (https://www.udacity.com/course/data-structures-and-algorithms-nanodegree--nd256)
-  - Please find the details of projects in the sub-directory
+  - Project 1
+    - This project covers the foundations of Data Structures including Arrays, Linked Lists, Queues, Recursion, Trees, Maps, and Hashing.
+  - Project 2
+    -This project covers basic algorithms including Binary Search, Heaps, Tries, Sorting Algorithms (Bubble, Merge, Quick, and Heap sort), and Divide and Conquer Algorithms.
+  - Project 3
+    - This project covers advanced algorithms including Greedy Algorithms, Graph Algorithms, and Dynamic Programming. The final project utilized the A* Algorithm to create a route planner.
 
 # No Data is included due to the license
