@@ -4,11 +4,9 @@ This repository contains code/ scripts for personal project and projects from on
 # Repository File Structure
 
 1, Future Quant
-  - Quant trading for personal purpose 
-  - Self-developed backtest engine 
-  - Backtest and evaluate trading strategy
-  - Sample trading stratgey script
-  - No historical data is included
+  - Quant trading scripts for personal interest/ purpose 
+  - Including backtest engine, sample trading strategy, scripts for rollover futures data 
+  - No historical data is included in this repository
   
 2, Udacity AI in Trading Nanodegree
   - 
