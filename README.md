@@ -9,7 +9,7 @@ This repository contains code/ scripts for personal project and projects from on
   - No historical data is included in this repository
   
 2, Artificial Intelligence in Trading Nanodegree
-  - Udacity online course (https://www.udacity.com/course/nd880)
+  - Udacity NANODEGREE Program(Partner with World Quant) (https://www.udacity.com/course/nd880)
   - Please find the details of projects in the sub-directory
 
 3, Data Structures & Algorithms Nanodegree
