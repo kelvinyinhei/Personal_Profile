@@ -1,8 +1,8 @@
 # Artificial Intelligence in Trading
   - Udacity Nanodegree Program(Partner with World Quant) (https://www.udacity.com/course/nd880)
   - Project 1: Trading with Momentum
-    >Generate a trading signal based on a momentum indicator and produce projected returns. Perform a statistical test to conclude if there is alpha in the signal.
-    >Extended Reference: [Dual Momentum Strategy](https://seekingalpha.com/article/4233923-dual-momentum-january-update)
+     >Generate a trading signal based on a momentum indicator and produce projected returns. Perform a statistical test to conclude if there is alpha in the signal.
+     >Extended Reference: [Dual Momentum Strategy](https://seekingalpha.com/article/4233923-dual-momentum-january-update)
      
   - Project 2: Breakout Strategy
      >Evaluate a breakout signal with statistical tests. Identify effect of outliers on a trading signal.
