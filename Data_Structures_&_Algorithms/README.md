@@ -1,4 +1,4 @@
-#Data Structures & Algorithms
+# Data Structures & Algorithms
   - Udacity Nanodegree Program (https://www.udacity.com/course/data-structures-and-algorithms-nanodegree--nd256)
   - Project 1: Unscramble CS Problems
     - This project covers the foundations of Data Structures including Arrays, Linked Lists, Queues, Recursion, Trees, Maps, and Hashing.
