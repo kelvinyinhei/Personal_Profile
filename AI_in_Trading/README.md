@@ -5,22 +5,22 @@
      >Extended Reference: [Dual Momentum Strategy](https://seekingalpha.com/article/4233923-dual-momentum-january-update)
      
   - Project 2: Breakout Strategy
-     - Evaluate a breakout signal with statistical tests. Identify effect of outliers on a trading signal.
+     >Evaluate a breakout signal with statistical tests. Identify effect of outliers on a trading signal.
      
   - Project 3: Smart Beta and Portfolio Optimization
-     - Create portfolios utilizing smart beta methodology and optimization. Evaluate the performance of the portfolios by calculating tracking errors. Calculate the turnover of portfolio and find the best timing to rebalance. Come up with the portfolio weights by analyzing fundamental data, and by quadratic programming.
+     >Create portfolios utilizing smart beta methodology and optimization. Evaluate the performance of the portfolios by calculating tracking errors. Calculate the turnover of portfolio and find the best timing to rebalance. Come up with the portfolio weights by analyzing fundamental data, and by quadratic programming.
 
   - Project 4: Multi-Factor Model
-     - Generate multiple alpha factors. Evaluate the performance of alpha factors and formulate an advanced portfolio optimization by working with constraints such as risk models, leverage, market neutrality and limits on factor exposures
+     >Generate multiple alpha factors. Evaluate the performance of alpha factors and formulate an advanced portfolio optimization by working with constraints such as risk models, leverage, market neutrality and limits on factor exposures
      
   - Project 5: Sentiment Analysis with NLP on Financial Statements
-     - Apply Natural Language Processing on corporate filings, such as 10Q and 10K statements, from cleaning data and text processing, to feature extraction and modeling. Utilize bag-of-words and TF-IDF to generate company-specific sentiments. Based on the sentiments, decide which company to invest in, and the optimal time to buy or sell.
+     >Apply Natural Language Processing on corporate filings, such as 10Q and 10K statements, from cleaning data and text processing, to feature extraction and modeling. Utilize bag-of-words and TF-IDF to generate company-specific sentiments. Based on the sentiments, decide which company to invest in, and the optimal time to buy or sell.
       
   - Project 6: Sentiment Analysis with Neutral Network
-     - Build deep neural networks to process news data. Use different ways of embedding words into vectors. Construct and train LSTM networks for sentiment classification. Backtests and apply the models to news data for signal generation.
+     >Build deep neural networks to process news data. Use different ways of embedding words into vectors. Construct and train LSTM networks for sentiment classification. Backtests and apply the models to news data for signal generation.
       
   - Project 7: Combining Signals for Enhanced Alpha
-     - Combine signals on a random forest for enhanced alpha. Solve the problem of overlapping samples.
+     >Combine signals on a random forest for enhanced alpha. Solve the problem of overlapping samples.
 
   - Project 8: BackTesting
-     - Build a realistic backtester that uses the Barra data. The backtester will perform portfolio optimization that includes transaction costs to allow for a reasonably fast backtest. Use performance attribution to identify the major drivers of your portfolio's profit-and-loss (PnL). 
+     >Build a realistic backtester that uses the Barra data. The backtester will perform portfolio optimization that includes transaction costs to allow for a reasonably fast backtest. Use performance attribution to identify the major drivers of your portfolio's profit-and-loss (PnL). 
