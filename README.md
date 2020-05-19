@@ -17,7 +17,7 @@ This repository contains code/ scripts for personal project and projects from on
   - Project 5: Sentiment Analysis with NLP on Financial Statements
   - Project 6: Sentiment Analysis with Neutral Network
   - Project 7: Combining Signals for Enhanced Alpha
-  - Project 8: BackTesting
+  - Project 8: Backtesting
 
 3, Data Structures & Algorithms
   - Udacity Nanodegree Program (https://www.udacity.com/course/data-structures-and-algorithms-nanodegree--nd256)
