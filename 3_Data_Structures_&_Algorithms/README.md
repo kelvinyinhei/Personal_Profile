@@ -6,3 +6,5 @@
     >This project covers basic algorithms including Binary Search, Heaps, Tries, Sorting Algorithms (Bubble, Merge, Quick, and Heap sort), and Divide and Conquer Algorithms.
   - Project 3: Problems vs. Algorithms
     >This project covers advanced algorithms including Greedy Algorithms, Graph Algorithms, and Dynamic Programming. The final project utilized the A* Algorithm to create a route planner.
+  - Project 4: Route Planner
+    >This project
