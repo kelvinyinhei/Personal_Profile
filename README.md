@@ -3,7 +3,7 @@ This repository contains code/ scripts for personal project and projects from on
 
 # Repository File Structure
 
-1, Future Quant
+1, Quant
   - Quant trading scripts for personal interest/ purpose 
   - Including backtest engine, sample trading strategy, scripts for rollover futures data 
   - No historical data is included in this repository
